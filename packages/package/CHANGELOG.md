@@ -1,5 +1,11 @@
 # @sveltejs/package
 
+## 3.0.2
+
+### Patch Changes
+
+- fix: exit after packaging when preprocessors leave resources running ([#17497](https://github.com/sveltejs/kit/pull/17497))
+
 ## 3.0.1
 
 ### Patch Changes
