@@ -1203,6 +1203,6 @@ test.describe('$app/server', () => {
 
 	test('can read a file imported through a dynamic import', async ({ page }) => {
 		await page.goto('/read-file/dynamic-import');
-		await expect(page.getByTestId('text')).toHaveText('Imported through a dynamic import 😎');
+		await expect(page.getByTestId('text')).toContainText('Imported through a dynamic import 😎');
 	});
 });

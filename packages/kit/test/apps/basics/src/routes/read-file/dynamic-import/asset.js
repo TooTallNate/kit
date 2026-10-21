@@ -1,1 +1,1 @@
-export { default } from './asset.txt?url&no-inline';
+export { default } from './asset.txt?url';
